@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.outline {
+    @apply outline-zinc-300 bg-transparent;
+}
+
+.small {
+    @apply px-2 py-1;
+}
