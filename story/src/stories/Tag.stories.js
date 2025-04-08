@@ -4,28 +4,34 @@ import Tag from "../components/Tag";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 export default {
-  title: 'Example/Tag',
+  title: 'Components/Tag',
   component: Tag,
   argTypes: {
     label: { control: "text" },
     icon: { control: "text" },
-    size: { control: "text" },
-    shape: { control: "text" },
-    ro: { control: "text" },
+    size: { control: "radio", options: ["small", "medium"] },
+    shape: { control: "radio", options: ["solid", "outline"] },
+    ro: { control: "radio", options: ["readonly", "not"] },
   },
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Medium = {
+export const Default = {
   args: {
+    label: 'Tag label',
+    icon: 'schedule',
     size: 'medium',
-    label: 'Tag',
+    shape: 'solid',
+    ro: 'not',
   },
 };
 
-export const Small = {
+export const ReadOnly = {
   args: {
-    size: 'small',
-    label: 'Tag',
+    label: 'Tag label',
+    icon: 'schedule',
+    size: 'medium',
+    shape: 'solid',
+    ro: 'readonly',
   },
 };
