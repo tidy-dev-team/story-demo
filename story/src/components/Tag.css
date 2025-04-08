@@ -3,7 +3,14 @@
 .outline {
     @apply outline-zinc-300 bg-transparent;
 }
+.outline:hover {
+    @apply outline-zinc-300 bg-transparent;
+}
 
 .small {
     @apply px-2 py-1;
+}
+
+.readonly span {
+    @apply hidden;
 }
