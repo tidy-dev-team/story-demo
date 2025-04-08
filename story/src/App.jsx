@@ -16,12 +16,26 @@ function App() {
         <Tag label="Medium Solid" shape="solid" size="medium" />
       </div>
       <div className='flex flex-col gap-4'>
-      <Tag label="Small Outline RO" shape="outline" size="small" ro="readonly" />
-      <Tag label="Small Solid RO" shape="solid" size="small" ro="readonly" />
+        <Tag label="Small Outline RO" shape="outline" size="small" ro="readonly" />
+        <Tag label="Small Solid RO" shape="solid" size="small" ro="readonly" />
 
-      <Tag label="Medium Outline RO" shape="outline" size="medium" ro="readonly" />
-      <Tag label="Medium Solid RO" shape="solid" size="medium" ro="readonly" />
-    </div>
+        <Tag label="Medium Outline RO" shape="outline" size="medium" ro="readonly" />
+        <Tag label="Medium Solid RO" shape="solid" size="medium" ro="readonly" />
+      </div>
+      <div className='flex flex-col gap-4'>
+        <Tag label="Small Outline" shape="outline" size="small" icon="Schedule" />
+        <Tag label="Small Solid" shape="solid" size="small" icon="Schedule" />
+
+        <Tag label="Medium Outline" shape="outline" size="medium" icon="Schedule" />
+        <Tag label="Medium Solid" shape="solid" size="medium" icon="Schedule" />
+      </div>
+      <div className='flex flex-col gap-4'>
+        <Tag label="Small Outline RO" shape="outline" size="small" ro="readonly" icon="Schedule" />
+        <Tag label="Small Solid RO" shape="solid" size="small" ro="readonly" icon="Schedule" />
+
+        <Tag label="Medium Outline RO" shape="outline" size="medium" ro="readonly" icon="Schedule" />
+        <Tag label="Medium Solid RO" shape="solid" size="medium" ro="readonly" icon="Schedule" />
+      </div>
     </div >
   )
 }
