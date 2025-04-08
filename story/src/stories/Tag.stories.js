@@ -15,18 +15,18 @@ export default {
     icon: { control: "text" },
     size: { control: "radio", options: ["small", "medium"] },
     shape: { control: "radio", options: ["solid", "outline"] },
-    ro: { control: "radio", options: ["readonly", "not"] },
+    ro: { control: "radio", options: ["readonly", "editable"] },
   },
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Default = {
+export const Editable = {
   args: {
     label: 'Tag label',
     icon: 'schedule',
     size: 'medium',
     shape: 'solid',
-    ro: 'not',
+    ro: 'editable',
   },
 };
 
