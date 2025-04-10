@@ -1,20 +1,21 @@
 @import "tailwindcss";
 
 .avatar.size-sm {
-    @apply text-xs font-medium w-8 h-8 pb-0.5;
+  @apply h-8 w-8 pb-0.5 text-xs font-medium;
 }
 
 .avatar.size-md {
-    @apply text-xl font-normal w-14 h-14 pb-1;
+  @apply h-14 w-14 pb-1 text-xl font-normal;
 }
 
 .avatar.size-lg {
-    @apply text-4xl font-normal w-24 h-24 pb-2;
+  @apply h-24 w-24 pb-2 text-4xl font-normal;
 }
 
-.avatar:empty{
-    @apply bg-slate-700 text-white;
+.avatar:empty {
+  @apply bg-zinc-700 text-white;
 }
-.avatar:empty::after{
-    content: 'N/A';
+
+.avatar:empty::after {
+  content: 'N/A';
 }
