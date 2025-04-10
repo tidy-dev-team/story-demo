@@ -13,5 +13,8 @@
 }
 
 .avatar:empty{
-    @apply bg-slate-700;
+    @apply bg-slate-700 text-white;
+}
+.avatar:empty::after{
+    content: 'N/A';
 }
