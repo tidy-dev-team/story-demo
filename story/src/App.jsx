@@ -10,7 +10,9 @@ function App() {
   return (
     <div className='flex gap-4'>
       <div className='flex flex-col gap-4'>
-        <Avatar label="BS" size="lg"/>
+        <Avatar label="aa" size="sm" />
+        <Avatar label="AA" size="md" />
+        <Avatar label="AA" size="lg" />
       </div>
       <div className='flex flex-col gap-4'>
         <Tag label="Small Outline" shape="outline" size="small" />

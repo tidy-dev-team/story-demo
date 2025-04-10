@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 .avatar.size-sm {
-    @apply text-xs font-medium px-2.5 py-2.5;
+    @apply text-xs font-medium w-8 h-8 pb-0.5;
 }
 
 .avatar.size-md {
-    @apply text-xl font-normal px-2.5 py-2.5;
+    @apply text-xl font-normal w-14 h-14 pb-1;
 }
 
 .avatar.size-lg {
-    @apply text-4xl font-normal px-2.5 py-2.5;
+    @apply text-4xl font-normal w-24 h-24 pb-2;
 }
