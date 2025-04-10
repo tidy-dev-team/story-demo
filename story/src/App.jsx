@@ -2,12 +2,16 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Tag from "./components/Tag"
+import Avatar from "./components/Avatar"
 import './App.css'
 
 function App() {
 
   return (
     <div className='flex gap-4'>
+      <div className='flex flex-col gap-4'>
+        <Avatar />
+      </div>
       <div className='flex flex-col gap-4'>
         <Tag label="Small Outline" shape="outline" size="small" />
         <Tag label="Small Solid" shape="solid" size="small" />
