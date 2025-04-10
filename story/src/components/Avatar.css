@@ -11,3 +11,7 @@
 .avatar.size-lg {
     @apply text-4xl font-normal w-24 h-24 pb-2;
 }
+
+.avatar:empty{
+    @apply bg-slate-700;
+}
